@@ -1,0 +1,61 @@
+.addplant {
+  max-width: 1280px;
+  margin: 32px auto;
+  padding: 0 24px;
+}
+
+
+/* Two-column form layout */
+.addplant-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 0; /* row gap / column gap */
+}
+
+/* Make textarea + button full width */
+.addplant-form textarea,
+.addplant-form .full-width,
+.submit-btn {
+  grid-column: 1 / -1;
+}
+
+.addplant-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  gap: 8px;
+}
+
+.addplant-form input,
+.addplant-form select,
+.addplant-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 400px;
+}
+
+.addplant-form input:focus,
+.addplant-form select:focus,
+.addplant-form textarea:focus {
+  outline: none;
+  border-color: #367157;
+}
+
+/* Button styling */
+.submit-btn {
+  margin-top: 20px;
+  padding: 14px;
+  background-color: #367157;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #2a5a45;
+}

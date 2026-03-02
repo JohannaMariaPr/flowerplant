@@ -1,0 +1,35 @@
+.header {
+  display: flex;                     
+  justify-content: space-between;    /* logo left, nav right */
+  align-items: center;               /* vertically center */
+  padding: 16px 44px;                
+  gap: 620px;
+  background-color: #367157;         /* header background */
+  color: white;
+}
+
+.logo h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;                         /* space between nav links */
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #a8e6a3;
+  opacity: 0.9;
+}
+
+.nav-link:active {
+  border-bottom: 2px solid #a8e6a3;
+}

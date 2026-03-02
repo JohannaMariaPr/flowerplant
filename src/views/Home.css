@@ -1,0 +1,109 @@
+h1 {
+    text-align: center;
+    color: #2f4f4f;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+/* Hero Section */ 
+.hero {
+    width: 100%;
+}
+
+.hero-img {
+    width: 1158px;
+    position: relative;
+    height: 530px;
+    object-fit: cover;
+    display: block;
+    object-position: bottom; /*cuts the picture in a way the bottom part is shown */
+    border-radius: 0 0 20px 20px /* radius only on bottom corners */
+}
+
+.hero-text {
+    max-width: 1280px;  /* same as main content */
+    margin: 12px auto 0; /* center horizontally */
+    padding: 0 24px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+
+.hero-text p {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height:
+}
+
+/* Introduction Section */
+.intro {
+    margin: 40px 24px;
+    padding: 0;
+}
+
+.intro-container {
+    width: 1158px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    gap: 24px;
+}
+
+.intro-img {
+  width: 660px;              /* left column */
+  border-radius: 10px 0 0 10px;     /* optional rounding */
+  object-fit: cover;
+  max-height: 300px;
+}
+
+.intro-text {
+  width: 500px;              /* right column */
+  padding-right: 24px;
+}
+
+.intro-text h2 {
+  color: #2f4f4f;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.intro-text p {
+  color: #3b5a3b;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+/* Plant Care Guide */
+
+.plant-guides {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers the headline + grid */
+    max-width: 1280px;
+}
+
+.plant-guides h2 {
+    color: #2f4f4f;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.plant-guides p {
+    line-height: 1.8;
+    font-size: 16px;
+    text-align: center;
+}
+
+.plant-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 28px;
+}
+
+.plant-grid p {
+    text-align: left;
+}

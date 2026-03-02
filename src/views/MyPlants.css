@@ -1,0 +1,31 @@
+.myplants {
+    max-width: 1280px;
+    margin: 32px auto;      
+    padding: 0 62px;        
+}
+
+.myplants h1 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.myplants-header {
+    margin-bottom: 40px;
+}
+
+.add-plant-btn {
+    background-color: #367157;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add-plant-btn:hover {
+    background-color: #2a5a45;
+    color: #a8e6a3;
+    opacity: 0.9;
+}

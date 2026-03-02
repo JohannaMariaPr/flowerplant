@@ -1,0 +1,15 @@
+/* Reset box-sizing */
+* {
+  box-sizing: border-box; 
+  margin: 0 auto; 
+  padding: 0; 
+  max-width: 1280px;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8f6;
+  color: #2f3e3e;
+  line-height: 1.6;
+}
